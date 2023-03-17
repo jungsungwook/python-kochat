@@ -55,10 +55,10 @@ LOSS = {
 
 GENSIM = {
     'window_size': 2,  # 임베딩 학습시 사용되는 윈도우 사이즈
-    'workers': 4,  # 학습시 사용되는 쓰레드 워커 갯수 8
+    'workers': 8,  # 학습시 사용되는 쓰레드 워커 갯수
     'min_count': 2,  # 데이터에서 min count보다 많이 등장해야 단어로 인지
     'sg': 1,  # 0 : CBOW = 1 \\ SkipGram = 2
-    'iter': 1000  # 임베딩 학습 횟수 default = 2000
+    'iter': 2000  # 임베딩 학습 횟수
 }
 
 INTENT = {
