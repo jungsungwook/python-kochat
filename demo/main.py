@@ -8,12 +8,13 @@ from kochat.proc import DistanceClassifier, GensimEmbedder, EntityRecognizer, So
 
 # from demo.scenario import dust, weather, travel, restaurant
 from scenario import dust, weather, travel, restaurant
+from scenario import server
 # 에러 나면 이걸로 실행해보세요!
 
 import matplotlib
 matplotlib.use('Agg')
 
-dataset = Dataset(ood=True)
+dataset = Dataset(ood=True, naver_fix=False)
 emb = GensimEmbedder(model=embed.FastText())
 
 clf = DistanceClassifier(
@@ -32,7 +33,8 @@ kochat = KochatApi(
     intent_classifier=(clf, True),
     entity_recognizer=(rcn, True),
     scenarios=[
-        weather, dust, travel, restaurant
+        weather, dust, travel, restaurant,
+        server
     ]
 )
 
@@ -45,4 +47,4 @@ def index():
 if __name__ == '__main__':
     kochat.app.template_folder = kochat.root_dir + 'templates'
     kochat.app.static_folder = kochat.root_dir + 'static'
-    kochat.app.run(port=8080, host='0.0.0.0')
+    kochat.app.run(port=7721, host='127.0.0.1')

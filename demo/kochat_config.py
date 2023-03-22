@@ -32,7 +32,7 @@ DATA = {
     'intent_data_dir': BASE['root_dir'] + "data{_}intent_data.csv".format(_=_),  # 생성된 인텐트 데이터 파일 경로
     'entity_data_dir': BASE['root_dir'] + "data{_}entity_data.csv".format(_=_),  # 생성된 엔티티 데이터 파일 경로
 
-    'NER_categories': ['DATE', 'LOCATION', 'RESTAURANT', 'PLACE'],  # 사용자 정의 태그
+    'NER_categories': ['SERVER', 'TARGET', 'DATE', 'LOCATION', 'RESTAURANT', 'PLACE'],  # 사용자 정의 태그
     'NER_tagging': ['B', 'E', 'I', 'S'],  # NER의 BEGIN, END, INSIDE, SINGLE 태그
     'NER_outside': 'O',  # NER의 O태그 (Outside를 의미)
 }

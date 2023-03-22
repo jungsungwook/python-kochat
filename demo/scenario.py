@@ -3,6 +3,17 @@ from kocrawl.weather import WeatherCrawler
 from kochat.app import Scenario
 from kocrawl.map import MapCrawler
 
+from src.api.server import ServerApi
+
+server = Scenario(
+    intent='server',
+    api=ServerApi().request,
+    scenario={
+        'SERVER': [],
+        'TARGET': ['상태'],
+    }
+)
+
 weather = Scenario(
     intent='weather',
     api=WeatherCrawler().request,
