@@ -14,6 +14,8 @@ from scenario import server
 import matplotlib
 matplotlib.use('Agg')
 
+TRY_TRAIN = False
+
 dataset = Dataset(ood=True, naver_fix=False)
 emb = GensimEmbedder(model=embed.FastText())
 
@@ -29,9 +31,9 @@ rcn = EntityRecognizer(
 
 kochat = KochatApi(
     dataset=dataset,
-    embed_processor=(emb, True),
-    intent_classifier=(clf, True),
-    entity_recognizer=(rcn, True),
+    embed_processor=(emb, TRY_TRAIN),
+    intent_classifier=(clf, TRY_TRAIN),
+    entity_recognizer=(rcn, TRY_TRAIN),
     scenarios=[
         weather, dust, travel, restaurant,
         server

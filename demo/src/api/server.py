@@ -6,8 +6,12 @@ from abc import ABCMeta
 
 class ServerApi(metaclass=ABCMeta):
     def request(self, server, target):
+        """
+        서버 정보를 제공 하는 API 입니다.
+        """
         try:
             print("server_response===>", server, target)
+            return f"{server} 서버의 {target} 정보입니다.\n"
         except Exception:
             return "sorry"
     

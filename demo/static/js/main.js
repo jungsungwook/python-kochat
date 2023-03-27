@@ -42,12 +42,8 @@ function sendMessage(text, message_side) {
 
 function greet() {
     setTimeout(function () {
-        return sendMessage("Kochat 데모에 오신걸 환영합니다.", 'left');
-    }, 1000);
-
-    setTimeout(function () {
         return sendMessage("사용할 닉네임을 알려주세요.", 'left');
-    }, 2000);
+    }, 1000);
 }
 
 function onClickAsEnter(e) {
@@ -63,12 +59,8 @@ function setUserName(username) {
             return sendMessage("반갑습니다." + username + "님. 닉네임이 설정되었습니다.", 'left');
         }, 1000);
         setTimeout(function () {
-            return sendMessage("저는 각종 여행 정보를 알려주는 여행봇입니다.", 'left');
+            return sendMessage("솔루션 문의 사항을 물어봐 주세요.", 'left');
         }, 2000);
-        setTimeout(function () {
-            return sendMessage("날씨, 미세먼지, 여행지, 맛집 정보에 대해 무엇이든 물어보세요!", 'left');
-        }, 3000);
-
         return username;
 
     } else {
@@ -94,6 +86,10 @@ function requestChat(messageText, url_pattern) {
                 return sendMessage(data['answer'], 'left');
             } else if (state === 'REQUIRE_LOCATION') {
                 return sendMessage('어느 지역을 알려드릴까요?', 'left');
+            } else if (state == 'REQUIRE_SERVER') {
+                return sendMessage('어느 서버를 알려드릴까요?', 'left');
+            } else if (state == 'REQUIRE_TARGET') {
+                return sendMessage('어느 정보를 알려드릴까요?', 'left');
             } else {
                 return sendMessage('죄송합니다. 무슨말인지 잘 모르겠어요.', 'left');
             }

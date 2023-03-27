@@ -10,7 +10,7 @@ server = Scenario(
     api=ServerApi().request,
     scenario={
         'SERVER': [],
-        'TARGET': ['상태'],
+        'TARGET': [],
     }
 )
 

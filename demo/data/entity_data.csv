@@ -3997,59 +3997,80 @@ question,label
 오뎅탕 잘하는 음식점 어디니,S-RESTAURANT O O O
 거창 식당 어디니,S-RESTAURANT O O
 서버 상태 알려줘,O S-TARGET O
-데브 서버 상태 알려줘,S-SERVER O I-TARGET O
-데모 서버 상태 알려줘,S-SERVER O I-TARGET O
-인터널 서버 상태 알려줘,S-SERVER O I-TARGET O
-DEV 서버 상태 알려줘,S-SERVER O I-TARGET O
-DEMO 서버 상태 알려줘,S-SERVER O I-TARGET O
-INTERNAL 서버 상태 알려줘,S-SERVER O I-TARGET O
-INT 서버 상태 알려줘,S-SERVER O I-TARGET O
+데브 서버 상태 알려줘,S-SERVER O S-TARGET O
+데모 서버 상태 알려줘,S-SERVER O S-TARGET O
+인터널 서버 상태 알려줘,S-SERVER O S-TARGET O
+DEV 서버 상태 알려줘,S-SERVER O S-TARGET O
+DEMO 서버 상태 알려줘,S-SERVER O S-TARGET O
+INTERNAL 서버 상태 알려줘,S-SERVER O S-TARGET O
+INT 서버 상태 알려줘,S-SERVER O S-TARGET O
 서버 아이피 알려줘,O S-TARGET O
-데브 서버 아이피 알려줘,S-SERVER O I-TARGET O
-데모 서버 아이피 알려줘,S-SERVER O I-TARGET O
-인터널 서버 아이피 알려줘,S-SERVER O I-TARGET O
-DEV 서버 아이피 알려줘,S-SERVER O I-TARGET O
-DEMO 서버 아이피 알려줘,S-SERVER O I-TARGET O
-INTERNAL 서버 아이피 알려줘,S-SERVER O I-TARGET O
-INT 서버 아이피 알려줘,S-SERVER O I-TARGET O
-데브 서버 아이피좀 알려줘,S-SERVER O I-TARGET O
-데모 서버 아이피좀 알려줘,S-SERVER O I-TARGET O
-인터널 서버 아이피좀 알려줘,S-SERVER O I-TARGET O
-DEV 서버 아이피좀 알려줘,S-SERVER O I-TARGET O
-DEMO 서버 아이피좀 알려줘,S-SERVER O I-TARGET O
-INTERNAL 서버 아이피좀 알려줘,S-SERVER O I-TARGET O
-INT 서버 아이피좀 알려줘,S-SERVER O I-TARGET O
-데브 서버 아이피가 뭐야,S-SERVER O I-TARGET O
-데모 서버 아이피가 뭐야,S-SERVER O I-TARGET O
-인터널 서버 아이피가 뭐야,S-SERVER O I-TARGET O
-DEV 서버 아이피가 뭐야,S-SERVER O I-TARGET O
-DEMO 서버 아이피가 뭐야,S-SERVER O I-TARGET O
-INTERNAL 서버 아이피가 뭐야,S-SERVER O I-TARGET O
-INT 서버 아이피가 뭐야,S-SERVER O I-TARGET O
-데브 서버 아이피가 뭐에요,S-SERVER O I-TARGET O
-데모 서버 아이피가 뭐에요,S-SERVER O I-TARGET O
-인터널 서버 아이피가 뭐에요,S-SERVER O I-TARGET O
-DEV 서버 아이피가 뭐에요,S-SERVER O I-TARGET O
-DEMO 서버 아이피가 뭐에요,S-SERVER O I-TARGET O
-INTERNAL 서버 아이피가 뭐에요,S-SERVER O I-TARGET O
-INT 서버 아이피가 뭐에요,S-SERVER O I-TARGET O
-데브 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-데모 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-인터널 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-DEV 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-DEMO 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-INTERNAL 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-INT 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-데브 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-데모 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-인터널 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-DEV 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-DEMO 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-INTERNAL 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-INT 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-데브 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-데모 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
-인터널 서버 아이피가 뭐죠,S-SERVER O I-TARGET O
+데브 서버 아이피 알려줘,S-SERVER O S-TARGET O
+데모 서버 아이피 알려줘,S-SERVER O S-TARGET O
+인터널 서버 아이피 알려줘,S-SERVER O S-TARGET O
+DEV 서버 아이피 알려줘,S-SERVER O S-TARGET O
+DEMO 서버 아이피 알려줘,S-SERVER O S-TARGET O
+INTERNAL 서버 아이피 알려줘,S-SERVER O S-TARGET O
+INT 서버 아이피 알려줘,S-SERVER O S-TARGET O
+데브 서버 아이피좀 알려줘,S-SERVER O S-TARGET O
+데모 서버 아이피좀 알려줘,S-SERVER O S-TARGET O
+인터널 서버 아이피좀 알려줘,S-SERVER O S-TARGET O
+DEV 서버 아이피좀 알려줘,S-SERVER O S-TARGET O
+DEMO 서버 아이피좀 알려줘,S-SERVER O S-TARGET O
+INTERNAL 서버 아이피좀 알려줘,S-SERVER O S-TARGET O
+INT 서버 아이피좀 알려줘,S-SERVER O S-TARGET O
+데브 서버 아이피가 뭐야,S-SERVER O S-TARGET O
+데모 서버 아이피가 뭐야,S-SERVER O S-TARGET O
+인터널 서버 아이피가 뭐야,S-SERVER O S-TARGET O
+DEV 서버 아이피가 뭐야,S-SERVER O S-TARGET O
+DEMO 서버 아이피가 뭐야,S-SERVER O S-TARGET O
+INTERNAL 서버 아이피가 뭐야,S-SERVER O S-TARGET O
+INT 서버 아이피가 뭐야,S-SERVER O S-TARGET O
+데브 서버 아이피가 뭐에요,S-SERVER O S-TARGET O
+데모 서버 아이피가 뭐에요,S-SERVER O S-TARGET O
+인터널 서버 아이피가 뭐에요,S-SERVER O S-TARGET O
+DEV 서버 아이피가 뭐에요,S-SERVER O S-TARGET O
+DEMO 서버 아이피가 뭐에요,S-SERVER O S-TARGET O
+INTERNAL 서버 아이피가 뭐에요,S-SERVER O S-TARGET O
+INT 서버 아이피가 뭐에요,S-SERVER O S-TARGET O
+데브 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+데모 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+인터널 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+DEV 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+DEMO 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+INTERNAL 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+INT 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+데브 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+데모 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+인터널 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+DEV 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+DEMO 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+INTERNAL 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+INT 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+데브 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+데모 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+인터널 서버 아이피가 뭐죠,S-SERVER O S-TARGET O
+아이피 좀 알려줘,S-TARGET O O
+아이피 알려줘,S-TARGET O
+아이피 알려주세요,S-TARGET O
+아이피 알려줄래,S-TARGET O
+아이피 뭐야,S-TARGET O
+서버 아이피 좀 알려줘,O S-TARGET O O
+서버 아이피 알려줘,O S-TARGET O
+서버 아이피 알려주세요,O S-TARGET O
+서버 아이피 알려줄래,O S-TARGET O
+서버 아이피가 뭐야,O S-TARGET O
+서버 아이피가 뭐에요,O S-TARGET O
+데모 아이피 좀 알려줘,S-SERVER S-TARGET O O
+데모 아이피 알려줘,S-SERVER S-TARGET O
+데모 아이피 알려주세요,S-SERVER S-TARGET O
+데모 아이피 알려줄래,S-SERVER S-TARGET O
+데모 아이피가 뭐야,S-SERVER S-TARGET O
+데모 서버 알려줘,S-SERVER O O
+데모 서버 알려주세요,S-SERVER O O
+데모 서버 알려줄래,S-SERVER O O
+데브 서버 알려줘,S-SERVER O O
+데브 서버 알려주세요,S-SERVER O O
 서울 꽃구경 가고 싶다고,S-LOCATION S-PLACE O O
 인천 바다 보러 갈거 같아,S-PLACE O O O O
 어느 관광지 좋을까,O O O
